@@ -1,0 +1,11 @@
+p{
+    color:bisque;
+}
+.myclass{
+    color:aliceblue;
+    background-color: rgb(26, 109, 112);
+}
+
+#myid{
+    background-color: rgb(193, 198, 203);
+}
