@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin-left:50px;
+            margin-top:100px;
+            height: 400px;
+            width: 500px;
+            border: 2px solid black;
+        }
+        div span{
+            margin-top: 150px;
+            margin-left: 12px;
+        }
+
+        @keyframes a{
+            0%{
+                color: red;
+                background-color: blue;
+                top:0px;
+
+            }
+
+            50%{
+                color: pink;
+                background-color: chartreuse;
+                top:20px;
+            }
+
+            100%{
+                color: darkkhaki;
+                background-color: deeppink;
+                bottom:50px;
+            }
+        }
+       /* span{
+            animation-name: a;
+            animation-duration: 2s;
+            display: inline-block;
+        }*/
+
+        div span:nth-child(even){
+            animation-name: a;
+            animation-duration: 2s;
+            display: inline-block;
+            animation-iteration-count: infinite;
+            width:80px;
+            height: 80px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 70px;
+            position: relative;
+
+        }
+
+        div span:nth-child(odd){
+
+            animation-name: a;
+            animation-duration: 2s;
+            display: inline-block;
+            animation-direction: reverse;
+            animation-iteration-count: infinite;
+            height: 80px;
+            width:80px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 70px;
+            position: relative;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <span>h</span>
+        <span>e</span>
+        <span>l</span>
+        <span>l</span>
+        <span>o</span>
+    </div>
+    
+
+</body>
+</html>
