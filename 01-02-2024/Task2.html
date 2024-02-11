@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart using Events</title>
+    <style>
+      body{
+        background-color:blanchedalmond;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var aa = document.createElement("div");
+      document.body.appendChild(aa);
+      var cc=document.createElement("center");
+      document.body.appendChild(cc);
+      cc.appendChild(aa);
+      aa.style.width = "500px";
+      aa.style.height = "400px";
+      var bb=document.createElement("img");
+      aa.appendChild(bb);
+      bb.setAttribute
+
+      var b = document.createElement("div");
+      document.body.appendChild(b);
+      b.style.width = "1650px";
+      b.style.height = "400px";
+      b.style.border = "2px solid";
+      b.style.display = "block";
+      b.style.marginTop = "50px";
+
+      var c = document.createElement("div");
+      b.appendChild(c);[parent]
+      c.style.width = "300px";
+      c.style.height = "300px";
+      c.style.border = "2px solid";
+      c.style.display = "inline-block";
+      c.style.marginTop = "-40px";
+      c.style.marginLeft = "20px";
+      var img = document.createElement("img");
+      c.appendChild(img);
+      img.setAttribute("src", "./img1.jpg");
+      img.style.width = "300px";
+      img.style.height = "300px";
+
+      var d = document.createElement("div");
+      b.appendChild(d);
+      d.style.width = "300px";
+      d.style.height = "300px";
+      d.style.border = "2px solid";
+      d.style.display = "inline-block";
+      d.style.marginTop = "30px";
+      d.style.marginLeft = "20px";
+      var img1 = document.createElement("img");
+      d.appendChild(img1);
+      img1.setAttribute("src", "./img2.jpg");
+      img1.style.width = "300px";
+      img1.style.height = "300px";
+
+      var e = document.createElement("div");
+      b.appendChild(e);
+      e.style.width = "300px";
+      e.style.height = "300px";
+      e.style.border = "2px solid";
+      e.style.display = "inline-block";
+      e.style.marginTop = "30px";
+      e.style.marginLeft = "20px";
+      var img2 = document.createElement("img");
+      e.appendChild(img2);
+      img2.setAttribute("src", "./img3.jpg");
+      img2.style.width = "300px";
+      img2.style.height = "300px";
+
+      var f = document.createElement("div");
+      b.appendChild(f);
+      f.style.width = "300px";
+      f.style.height = "300px";
+      f.style.border = "2px solid";
+      f.style.display = "inline-block";
+      f.style.marginTop = "30px";
+      f.style.marginLeft = "20px";
+      var img3 = document.createElement("img");
+      f.appendChild(img3);
+      img3.setAttribute("src", "./img4.jpg");
+      img3.style.width = "300px";
+      img3.style.height = "300px";
+
+      var g = document.createElement("div");
+      b.appendChild(g);
+      g.style.width = "300px";
+      g.style.height = "300px";
+      g.style.border = "2px solid";
+      g.style.display = "inline-block";
+      g.style.marginTop = "30px";
+      g.style.marginLeft = "20px";
+      g.setAttribute("src", "./img5.jpg");
+      var img4 = document.createElement("img");
+      g.appendChild(img4);
+      img4.setAttribute("src", "./img5.jpg");
+      img4.style.width = "300px";
+      img4.style.height = "300px";
+
+      img.addEventListener("click", hello);
+      img1.addEventListener("click", hi);
+      img2.addEventListener("click", hii);
+      img3.addEventListener("click", ho);
+      img4.addEventListener("click", fun);
+
+      function hello() {
+        bb.setAttribute("src","./img1.jpg");
+        bb.style.width = "500px";
+        bb.style.height = "400px";
+       }
+
+      function hi() {
+        bb.setAttribute("src", "./img2.jpg");
+        bb.style.width = "500px";
+        bb.style.height = "400px";
+      }
+
+      function hii() {
+        bb.setAttribute("src", "./img3.jpg");
+        bb.style.width = "500px";
+        bb.style.height = "400px";
+      }
+
+  
+      function ho(){
+        bb.setAttribute("src", "./img4.jpg");
+        bb.style.width = "500px";
+        bb.style.height = "400px";
+      }
+
+      function fun() {
+        bb.setAttribute("src", "./img5.jpg");
+        bb.style.width = "500px";
+        bb.style.height = "400px";
+      }
+    </script>
+  </body>
+</html>
