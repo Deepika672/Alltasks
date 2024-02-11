@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+
+      //Performing Trim Operation without using Trim Method
+
+      a = prompt("enter the string");
+      b = " ";
+      for (i = 0; a[i] != undefined; i++) {
+        if (a[i] == " ") {
+          continue;
+        }
+        b = b + a[i];
+      }
+      console.log(b);
+      console.log("------------------------------------------------------------------------------------------------------");
+
+      //Performing slice operation without using slice method
+
+      var aa = prompt("Enter string:");
+      var bb = prompt("Enter start index:");
+      var cc = prompt("Enter end index:");
+      var dd = "";
+      for (var i = bb; i < aa.length; i++) {
+        if (i == cc) {
+          break;
+        }
+        dd += aa[i];
+      }
+      console.log(dd);
+      console.log("------------------------------------------------------------------------------------------------------");
+
+      //Performing slice operation without using slice method
+      
+      str = prompt("Enter a string:");
+      sep = prompt("Enter separator:");
+      var emp = "";
+      arr = [];
+      for (i = 0; i < str.length; i++) {
+        if (str[i] != sep) {
+          emp = emp+ str[i];
+        } 
+        else {
+          arr.push(emp);
+          emp = "";
+        }
+      }
+      if (emp !== "") {
+        arr.push(emp);
+      }
+      console.log(arr);
+    </script>
+  </body>
+</html>
