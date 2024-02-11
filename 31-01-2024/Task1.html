@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resume Using Dom</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        
+        var a=document.createElement("h1");
+        a.innerText="DEEPIKA";
+        document.body.appendChild(a);
+       // console.log(document.body);
+        a.style.color="red";
+        a.style.textAlign="center";
+       //a.style.backgroundColor="SkyBlue";
+
+        var img=document.createElement("img")
+        img.setAttribute("src","./image1.png")
+        document.body.appendChild(img)
+        img.style.float="right"
+        img.style.height="85px"
+        img.style.marginTop="-60px"
+        
+
+        var b=document.createElement("hr");
+        document.body.appendChild(b);
+        b.style.height="10px";
+        b.style.backgroundColor="green"
+        b.style.marginTop="50px"
+
+    
+
+        var fe=document.createElement("fieldset")
+        document.body.appendChild(fe)
+        fe.style.backgroundColor="gray"
+        var le=document.createElement("legend")
+        fe.appendChild(le)
+        var co=document.createElement("h2")
+        co.innerText="Career Objective:"
+        le.appendChild(co)
+        //console.log(document.body);
+        co.style.color="brown"
+        co.style.backgroundColor="pink"
+
+        var para=document.createElement("p")
+        para.innerText="To Work in an organization which provides me with ample opportunities to enhance my skills and knowledge along with contributing to the growth of the organization"
+        fe.appendChild(para)
+        para.style.color="brown"
+        para.style.backgroundColor="gray"
+        //para.style.padding="20px"
+
+        var b=document.createElement("hr");
+        document.body.appendChild(b);
+        b.style.height="10px";
+        b.style.backgroundColor="green"
+
+
+        var fe=document.createElement("fieldset")
+        document.body.appendChild(fe)
+        fe.style.backgroundColor="gray"
+        var le=document.createElement("legend")
+        fe.appendChild(le)
+        var co=document.createElement("h2")
+        co.innerText="Hobbies:"
+        le.appendChild(co)
+        //console.log(document.body);
+        co.style.color="brown"
+        co.style.backgroundColor="pink"
+
+        var ot=document.createElement("ol")
+        fe.appendChild(ot)
+        var list1=document.createElement("li")
+        list1.innerText="Reading"
+        list1.style.color="brown"
+        ot.appendChild(list1)
+        var list2=document.createElement("li")
+        list2.innerText="Playing Games"
+        list2.style.color="brown"
+        ot.appendChild(list2)
+        var list3=document.createElement("li")
+        list3.innerText="Browsing"
+        list3.style.color="brown"
+        ot.appendChild(list3)
+
+        var b=document.createElement("hr");
+        document.body.appendChild(b);
+        b.style.height="10px";
+        b.style.backgroundColor="green"
+
+        var fe=document.createElement("fieldset")
+        document.body.appendChild(fe)
+        fe.style.backgroundColor="gray"
+        var le=document.createElement("legend")
+        fe.appendChild(le)
+        var co=document.createElement("h2")
+        co.innerText="Strengths:"
+        le.appendChild(co)
+        //console.log(document.body);
+        co.style.color="brown"
+        co.style.backgroundColor="pink"
+
+        var ot=document.createElement("ol")
+        fe.appendChild(ot)
+        var list1=document.createElement("li")
+        list1.innerText="Positive Attitude"
+        list1.style.color="brown"
+        ot.appendChild(list1)
+        var list2=document.createElement("li")
+        list2.innerText="Sincere"
+        list2.style.color="brown"
+        ot.appendChild(list2)
+        var list3=document.createElement("li")
+        list3.innerText="Easily Adaptable"
+        ot.appendChild(list3)
+        list3.style.color="brown"
+        var list4=document.createElement("li")
+        list4.innerText="Optimistic"
+        list4.style.color="brown"
+        ot.appendChild(list4)
+
+        var b=document.createElement("hr");
+        document.body.appendChild(b);
+        b.style.height="10px";
+        b.style.backgroundColor="green"
+
+        var fe=document.createElement("fieldset")
+        document.body.appendChild(fe)
+        fe.style.backgroundColor="gray"
+        var le=document.createElement("legend")
+        fe.appendChild(le)
+        var co=document.createElement("h2")
+        co.innerText="Declaration:"
+        le.appendChild(co)
+        //console.log(document.body);
+        co.style.color="brown"
+        co.style.backgroundColor="pink"
+
+        var para=document.createElement("p")
+        para.innerText="I do here by declare that above furnished information is true to the best of my knowledge"
+        fe.appendChild(para)
+        para.style.color="brown"
+        para.style.backgroundColor="gray"
+
+        var b=document.createElement("hr");
+        document.body.appendChild(b);
+        b.style.height="10px";
+        b.style.backgroundColor="green"
+
+        var s=document.createElement("h3")
+        s.innerText="Signature:"
+        document.body.appendChild(s)
+        s.style.float="right"
+        s.style.fontSize="20px"
+        s.style.marginRight="30px"  
+
+        var img1=document.createElement("img")
+        img1.setAttribute("src","sign.jpeg")
+        document.body.appendChild(img1)
+        img1.style.float="right"
+        img1.style.height="85px"
+        img1.style.marginRight="-90px"
+        img1.style.marginTop="85px"
+
+        var Si=document.createElement("h4")
+        Si.innerText="D.Sai Deepika"
+        document.body.appendChild(Si)
+        Si.style.float="right"
+        Si.style.fontSize="20px"
+        Si.style.marginRight="-120px"  
+        Si.style.marginTop="180px"
+
+ </script>
+    
+</body>
+</html>
